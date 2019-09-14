@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>That monthly changes in her circled orb</title>
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+
+    <header>
+      <h1>The Inconstant Moon</h1>
+    </header>
+
+     <!-- For the page's audio, I used 'Goodbye, Moonman' from the television
+     show Rick and Morty. I downloaded the audio from
+     https://www.youtube.com/watch?v=TgqiSBxvdws using youtube-dl, a command-line
+     program. -->
+    <audio controls loop class="audio">
+      <source src="audio/moonman-audio.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <img id="moon-image" class="" src="img/moon-transparent.png" alt="moon">
+
+    <!-- I have adapted the html form from Project 3 (Interactive Form) for the
+     Treehouse FSJS course.  --> 
+    <div class="sidenav">
+        <form action="index.html" method="post">
+          <label for="moon">Want to see a New Moon?</label>
+            <select id="moon" name="moon">
+              <option value="blur">Blur</option>
+              <option value="saturated">Saturated</option>
+              <option value="brighter">Brighter</option>
+              <option value="spin">Spin</option>
+              <option value="fade">Fade In</option>
+              <option value="bounce">Bounce</option>
+              <option value="old-moon">Old Moon, Please!</option>
+            </select>
+
+         <button type="submit">Hello, Moonman!</button>
+        </form>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
