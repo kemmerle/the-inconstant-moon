@@ -4,7 +4,7 @@ Project Description:
 I completed this mini-project (it took one Saturday morning) as a member of the Treehouse Apprenticeship Program for the weekly Code Adventure posted to the Treehouse FSJS Slack Channel. I have noted directly in my project files where I have adapted my css and html from outside sources. The background image and moon image are both open-source and downloaded
 from Flickr.com.
 
-The song 'Goodbye, Moonman!' was written by Ryan Elder and Jemaine Clement for the television show 'Rick and Morty'. I'm using this song for purely educational purposes, and I am making no money from this project!
+The song 'Goodbye, Moonmen!' was written by Ryan Elder and Jemaine Clement for the television show 'Rick and Morty'. I'm using this song for purely educational purposes, and I am making no money from this project!
 
 Motivation:
 In this project, I hoped to practice with HTML and with CSS, specifically manipulating the page background and images with CSS filter and animation effects.
