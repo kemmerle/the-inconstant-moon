@@ -143,7 +143,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/animation */
 .fade-in {
   animation-name: fadein;
   animation-duration: 3s;
-  animation-iteration-count: 1;
+  animation-iteration-count: infinite;
 }
 
 @keyframes fadein {
@@ -154,6 +154,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/animation */
 .bounce {
   animation-name: bounce;
   animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes bounce {
